@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="x-icon" href="logo1.png">
+    <title>Чам ООД</title>
+    <style>
+        .head1 {
+            font-size: 40px;
+            color: #cc7a00;
+            font-weight: bold;
+        }
+
+        .head2 {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+			background-image: url('fon.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+			font-family: Verdana, sans-serif; margin:0;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #ff3333;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+		
+
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+		.menu a:hover {
+			background-color: #cc7a00;
+			color: black;
+		}
+		
+
+        /* .menu-log class is used to position the login link 
+              on the right side of the menu bar */
+        .menu-log {
+            right: auto;
+            float: right; /* Floats the login link to the right */
+        }
+
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #ff3333;
+            color: #fff;
+            padding-top: 0px;
+            padding-bottom: 2px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .body_sec {
+            margin-left: 20px;
+        }
+		* {box-sizing: border-box}
+		
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="head1">
+            Дървени материали
+        </div>
+        <div class="head2">
+           гр.Оряхово
+        </div>
+    </header>
+
+    <!-- Menu Navigation Bar -->
+    <nav class="menu">
+        <a href="cham.html">Начало</a>
+		<a href="katalogch.html">Каталог</a>
+        <a href="promoch.html">Промоция</a>
+        <a href="zacham.html">За Фирмата</a>
+        <!-- menu-log class to float it to the right -->
+        <div class="menu-log">
+			<a>+359 899 999 899</a>
+            <a href="cart.html">Количка</a>
+        </div>
+    </nav>
+	
+	<table>
+  <tr>
+    <th>
+	<div class="card">
+  <img src="parket1.jpg"  style="width:100%">
+  <h1>Ламиниран паркет</h1>
+  <p class="price">$19.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div>
+</th>
+    <th>
+	<div class="card">
+  <img src="parket2.jpg" width="300" height="300" style="width:100%">
+  <h1>Ламиниран паркет</h1>
+  <p class="price">$19.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div>
+</th>
+	</th>
+    <th>
+	<div class="card">
+  <img src="parket3.jpg" width="300" height="300" style="width:100%">
+  <h1>Ламиниран паркет</h1>
+  <p class="price">$19.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div>
+</th>
+	</th>
+  </tr>
+  <tr>
+    <td><div class="card">
+  <img src="parket4.jpg" width="300" height="300" style="width:100%">
+  <h1>Ламиниран паркет</h1>
+  <p class="price">$19.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="parket5.jpg" width="300" height="300" style="width:100%">
+  <h1>Ламиниран паркет</h1>
+  <p class="price">$19.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="parket6.jpg" width="300" height="300" style="width:100%">
+  <h1>Естествен паркет</h1>
+  <p class="price">$24.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+  </tr>
+  <tr>
+    <td><div class="card">
+  <img src="pale.jpg" width="300" height="300" style="width:100%">
+  <h1>Дървен материал</h1>
+  <p class="price">$21.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="dyski.jpg" width="300" height="300" style="width:100%">
+  <h1>Дървени дъски</h1>
+  <p class="price">$39.99/m2</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="dyska.jpg" width="300" height="300" style="width:100%">
+  <h1>Дъски за рязане</h1>
+  <p class="price">$9.99</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+  </tr>
+  <tr>
+    <td><div class="card">
+  <img src="kyshta.jpg" width="300" height="300" style="width:100%">
+  <h1>Къща за птици</h1>
+  <p class="price">$17.99</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="kuche.jpg" width="300" height="300" style="width:100%">
+  <h1>Кучешка колиба</h1>
+  <p class="price">$101.99</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    <td><div class="card">
+  <img src="shtori.jpg" width="300" height="300" style="width:100%">
+  <h1>Дървени щори</h1>
+  <p class="price">$189.99</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+  </tr>
+  <tr>
+    <td><div class="card">
+  <img src="vugl1.png" width="300" height="300" style="width:100%">
+  <h1>Дървени въглища</h1>
+  <p class="price">$16.99</p>
+  <p></p>
+  <p><button>Добави в количка</button></p>
+</div></td>
+    
+</table>
+	
+    <footer>
+	<h4>Официялен спонсор:</h4>
+	<img src="sponsor3.jpg" width="250px" height="140px">
+	<br>
+	<img src="instagramlogo.png" width="30px" height="30px"><img src="fbb.jpg" width="30px" height="30px"><img src="x.png" width="30px" height="30px"><img src="tik.png" width="30px" height="30px">
+	</footer>
+</body>
+
+</html>
