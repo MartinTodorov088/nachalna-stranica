@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="x-icon" href="logo1.png">
+    <title>Дървени материали</title>
+    <style>
+        .head1 {
+            font-size: 40px;
+            color: #cc7a00;
+            font-weight: bold;
+        }
+
+        .head2 {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+			background-image: url('fon.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+			font-family: Verdana, sans-serif; margin:0;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #ff3333;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+		.menu a:hover {
+			background-color: #cc7a00;
+			color: black;
+		}
+
+        /* .menu-log class is used to position the login link 
+              on the right side of the menu bar */
+        .menu-log {
+            right: auto;
+            float: right; /* Floats the login link to the right */
+        }
+
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #ff3333;
+            color: #fff;
+           
+            padding-top: 0px;
+            padding-bottom: 2px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .body_sec {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="head1">
+            Дървени материали
+        </div>
+        <div class="head2">
+            гр.Оряхово
+        </div>
+    </header>
+
+    <!-- Menu Navigation Bar -->
+    <nav class="menu">
+        <a href="cham.html">Начало</a>
+		<a href="katalogch.html">Каталог</a>
+        <a href="promoch.html">Промоция</a>
+        <a href="zacham.html">За Фирмата</a>
+        <!-- menu-log class to float it to the right -->
+        <div class="menu-log">
+            <a href="cart.html">Количка</a>
+        </div>
+    </nav>
+
+    <!-- Body section -->
+    <main class="body_sec">
+        <section id="Content">
+            <h3>email:samoazsiznam@suoryahovo.org</h3>
+			<h3>Number:08930303011</h3>
+			<h3>За въпроси потърсете:</h3>
+			<img src="mt.jpg" width="250px" height="220px">
+			<h3>Пак благодаря!</h3>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+	<h4>Официялен спонсор:</h4>
+	<img src="sponsor3.jpg" width="250px" height="140px">
+	<br>
+	<img src="instagramlogo.png" width="30px" height="30px"><img src="fbb.jpg" width="30px" height="30px"><img src="x.png" width="30px" height="30px"><img src="tik.png" width="30px" height="30px">
+	</footer>
+</body>
+
+</html>
